@@ -15,18 +15,19 @@ function add() {
 		backgroundimgTag.src=backgroundImage;
 		
 		car2.png_imgTag=new Image;
-		car2.png_imgTag.onload=uploadGreenCar;
-		car2.png_imgTag.src=greencarImage
+		car2.png_imgTag.onload=upload_car2.png;
+		car2.png_Image.src=car2.png
 	}
 }
 
 function uploadBackground() {
-	//Defina a função ‘uploadBackground’
+	ctx.drawImage(backgroundimgTag,0,0,canvas.width, canvas.height )
 
 }
 
-function uploadGreenCar() {
-	//Defina a função ‘uploadGreenCar’.
+function upload_car2() {
+	function car2.png() {
+		ctx.drawImage(car2.png,)
 
 	
 }
